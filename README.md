@@ -4,9 +4,9 @@
 The following notebook presents ...
 Names and descriptions of the columns in the provided King County dataset:
 
-id - unique ID for a house
-date - date house was sold
-price - price of the house
+- id - unique ID for a house
+- date - date house was sold
+- price - price of the house
 bedrooms - number of bedrooms
 bathrooms - number of bathrooms
 sqft_living - square footage of the home
