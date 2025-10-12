@@ -2,6 +2,7 @@
 
 ### Context
 The following notebook presents ...
+
 Names and descriptions of the columns in the provided King County dataset:
 
 - id - unique ID for a house
