@@ -3,6 +3,8 @@
 ### Context
 The following notebook presents ...
 
+Link to data https://www.kaggle.com/datasets/harlfoxem/housesalesprediction/data
+
 Names and descriptions of the columns in the provided King County dataset:
 
 - id - unique ID for a house
