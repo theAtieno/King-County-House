@@ -1,9 +1,12 @@
 # King County Housing Price Analysis
 
 ### Context
-The following notebook presents ...
+This project explores the King County housing dataset (USA), which includes information about home prices and various features such as location, size, condition, and renovation history.
 
-Link to data https://www.kaggle.com/datasets/harlfoxem/housesalesprediction/data
+### Objective
+To identify which property characteristics strongly affect house prices — size, grade, location, and renovations
+Link to Kaggle Dataset - https://www.kaggle.com/datasets/harlfoxem/housesalesprediction/data
+Link to Canva Presentataion - https://www.canva.com/design/DAG1mNCCFzg/cQYMf9Gi3gyEQJjy318TuA/edit?ui=eyJBIjp7fX0
 
 Names and descriptions of the columns in the provided King County dataset:
 
@@ -29,4 +32,40 @@ Names and descriptions of the columns in the provided King County dataset:
 - sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
 - sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors
 
-Problem Statement
+### Data Preparation
+
+Key preprocessing steps to make the data analysis-ready:
+
+- Calculated house age (yr_sold - yr_built) to assess depreciation effects.
+- Replaced 0 renovation years with NaN for clarity.
+- Computed years since last renovation to measure recency.
+- Created renovation status column (Yes/No) for comparison.
+- Converted zipcode to string for categorical grouping.
+- Parsed date to datetime dtype.
+- Mapped waterfront (0 → “No”, 1 → “Yes”).
+- Added column for resale homes (sold_more_than_once).
+- Derived price per square foot as a value efficiency metric.
+
+### Univariate Analysis
+- Distribution of price, bedrooms, bathrooms, and sqft_living.
+- Outlier detection and price skewness exploration.
+
+### Bivariate Analysis
+- Price vs Sqft Living: Larger homes generally sell for more.
+- Price vs Grade: Strong positive relationship between construction quality and price.
+- Price vs Zipcode: Clear location-based price differences.
+- Price vs Condition: Weaker correlation than grade.
+
+### Multivariate Analysis
+- Price, Renovation & Age: Renovations raise prices only for older homes.
+- Price, Grade & Condition: Grade explains price variation better than condition.
+- Price, Sqft & Bedrooms: Bedrooms alone are not strong predictors without size.
+- Price, Location & Sqft: Central zipcodes command higher prices even for smaller houses.
+
+### Key Insights
+- Prices
+
+### Tool Used
+- Python
+- Jupyter
+- Github
