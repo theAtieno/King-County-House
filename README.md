@@ -63,7 +63,12 @@ Key preprocessing steps to make the data analysis-ready:
 - Price, Location & Sqft: Central zipcodes command higher prices even for smaller houses.
 
 ### Key Insights
-- Prices
+- Most homes are priced below $1M with the median price between $400K–$600K
+- The price has a Right-skewed distribution — a small number of very expensive homes (luxury properties) push the tail toward the right.
+- Most houses have upto 3 or 4 bedrooms and 2.5 bathrooms with very few having more than 6 bedrooms and 3+ bathrooms
+- Grades 7–9 dominate signaling average to above-average construction quality. The market is mostly mid-range, not luxury-dominated.
+- Most house are in condition 3 indicating average condition thus market is not luxury-dominated
+- 
 
 ### Tool Used
 - Python
