@@ -16,7 +16,7 @@ Names and descriptions of the columns in the provided King County dataset:
 - bedrooms - number of bedrooms
 - bathrooms - number of bathrooms
 - sqft_living - square footage of the home
-- sqft_lot - square footage of the lot
+- sqft_lot - square footage of total land area of the compound the house sits on
 - floors - total floors (levels) in house
 - waterfront - whether house has a view to a waterfront
 - view - an index from 0 to 4 of how good the property's view is
